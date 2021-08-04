@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+	<title>todo list</title>
+	<link rel="stylesheet" href="./styles/styles.css"/>	
+</head>
+<body>
+	<h1>Tasks</h1>
+	<ul>
+	${tasks}
+	</ul>
+	<hr>
+	<form action="/tasks" method="post">
+		<label for="newTask">Add a Task</label>
+		<input type="text" name="newTask"/>
+		<button type="submit">Submit</button>
+	</form>
+	<script src="./scripts/script.js"></script>
+</body>
